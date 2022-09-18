@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+
+.intro{
+    background-image: url("./astronomy.jpg");
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    justify-content: center;
+    display:flex;
+    flex-direction: column; 
+    text-align: center;
+}
+
+.container h1{
+    width: 350px;
+    font-size: 60px;
+    padding: 10px 18px;
+    margin: 0 auto;
+    color: #000;
+    background-color: darkgrey;
+    font-family: 'Raleway';
+    margin-bottom: 10px;
+}
+
+#clock{
+    width: 200px;
+    margin: 0 auto;
+    background-color: #000;
+    color: #fff;
+    font-size: 35px;
+}
+
+
+
